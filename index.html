@@ -6,6 +6,10 @@
     <title>Kitties To Go</title>
     <style>
         body {
+            background-image: linear-gradient(to bottom, rgba(42,157,190,0.7), rgba(255,255,255,0.7));
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             margin: 0;
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -222,7 +226,13 @@
         <p>Chew iPad power cord... <a href="#">Find out more >></a></p>
         <div class="cat-week">
             <h3>CAT OF THE WEEK</h3>
-            <img src="C:/Users/Owner/Desktop/html100/Kitties-to-Go/lesson04-mock3-sidebar-cat.jpg" alt="Adorable gray cat lounging">
+            <img src="images/sidebar.jpg"
+                 srcset="images/sidebar.jpg 480w,
+                         images/sidebar.jpg 800w,
+                         images/sidebar.jpg 1200w"
+                 sizes="(max-width: 600px) 480px,
+                        (max-width: 1200px) 800px,
+                        1200px" alt="Adorable gray cat lounging">
             <p>Stare at imaginary bug...</p>
             <a href="#">Book Now >></a>
         </div>
@@ -231,7 +241,13 @@
 
 <footer class="footer" role="contentinfo">
     <div class="footer-logo">
-        <img src="C:/Users/Owner/Desktop/html100/Kitties-to-Go/lesson04-mock5-cat-logo.png" alt="Kitties To Go Logo">
+        <img src="images/logo.png"
+             srcset="images/logo.png 480w,
+                     images/logo.png 800w,
+                     images/logo.png 1200w"
+             sizes="(max-width: 600px) 480px,
+                    (max-width: 1200px) 800px,
+                    1200px" alt="Kitties To Go Logo">
     </div>
     <p>Aborpos nisto inci tet aut que volupti...</p>
     <div class="footer-links">
